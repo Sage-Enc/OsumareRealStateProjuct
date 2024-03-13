@@ -1,0 +1,843 @@
+/* ======================================cardinform :start====================================== */
+.cardinform {
+    width: 100%;
+    height: 100%;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    text-align: right;
+    display: none;
+}
+
+.alice-carousel__dots {
+    margin: 4px 3px 5px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: white;
+    letter-spacing: 10px;
+}
+
+svg {
+    cursor: pointer;
+    overflow: visible;
+}
+
+#dot_icon {
+    width: 12px;
+    height: 12px;
+}
+
+.back_btns button {
+    color: var(--gray-one);
+    ;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding-bottom: 32px;
+    letter-spacing: 0.1px;
+
+
+
+}
+
+
+.Active:not(.__custom).__active {
+    background-color: #6e7ebc;
+}
+
+.alice-carousel__stage-item {
+    padding: 0px !important;
+}
+
+.mapss div {
+    width: 407px;
+    height: 456px;
+}
+
+@media screen and (min-width: 1240px) {
+    .cardinform_one {
+        padding: 80px 80px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.cardinform_one_two_main {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+}
+
+.cardinform_one_two {
+    width: 100%;
+}
+
+.cardinform_one_two_two {
+    width: 100%;
+}
+
+.cardinform_one {
+    margin-top: 150px;
+    padding: 0px 80px 0px 80px;
+}
+
+.carousel {
+    width: 785px;
+    height: 486px;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ======================================cardinform :end====================================== */
+/* ======================================inform :end====================================== */
+
+.css-heg063-MuiTabs-flexContainer {
+    display: flex;
+    align-items: center;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    width: 100%;
+    height: 48%;
+    background-color: var(--main-color-primary);
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #ffff !important;
+    background-color: var(--main-color-primary);
+}
+
+
+
+.inform {
+    padding: 96px 80px 0px 80px;
+    gap: 10px;
+    background: #FAFAFA;
+}
+
+.inform_one {
+    width: 100%;
+    height: 731px;
+    gap: 64px;
+}
+
+#simple-tabpanel-0 {
+    width: 100%;
+    height: 650px;
+    margin-top: 64px;
+    border: 1px solid var(--gray-five);
+    background: #FFF;
+    padding: 64px;
+    gap: 426px;
+}
+
+#simple-tabpanel-1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 64px;
+    border: 1px solid var(--gray-five);
+    background: #FFF;
+    padding: 64px;
+    gap: 426px;
+}
+
+#simple-tabpanel-2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--gray-five);
+    background: #FFF;
+    margin-top: 64px;
+    padding: 64px;
+    gap: 426px;
+}
+
+.infrom_text_one_two {
+    width: 519px;
+    height: 490px;
+}
+
+.infrom_text_one_two_one {
+    display: flex;
+}
+
+.infrom_two_one {
+    width: 519px;
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.infrom_two_two {
+    width: 600px;
+    height: 418px;
+}
+
+.inform_bhk h4 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--gray-one);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.inform_bhk_one h4 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--gray-two);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.infrom_two_one h1 {
+    color: var(--gray-one);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0.1px;
+}
+
+.infrom_two_one p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+
+}
+
+.this_is_btn h1 button {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--main-color-primary);
+    background: #F9F9F9;
+    color: var(--gray-one);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 32px;
+    line-height: 24px;
+}
+
+.css-19kzrtu {
+    padding: 0px !important;
+}
+
+.this_is_btn h1 button:hover {
+    box-shadow: 0px 8px 16px 0px rgba(111, 111, 111, 0.18);
+    transition: all ease-in-out .3s;
+}
+
+.main_infomr_btn button {
+    padding: 8px 24px;
+    color: #FFF;
+    background: var(--main-color-primary);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.this_is_btn h1 {
+    color: var(--gray-one);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.1px;
+}
+
+/* +++++++++++++++++++++++++++++++++new section++++++++++++++++++++++++++++++++++++++++ */
+.front_one,
+.front_two,
+.front {
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.front_one_start {
+    width: 529px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.front_two_one {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.front_two_card {
+    width: 90%;
+    gap: 12px;
+}
+
+.front_two_card_three {
+    width: 70%;
+    gap: 12px;
+}
+
+.front_two_card_two {
+    width: 75%;
+    gap: 12px;
+}
+
+.front_two_card h5,
+.front_two_card_three h5,
+.front_two_card_two h5 {
+    width: 100%;
+    border: 1px solid var(--main-color-Tertiary_bor);
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    height: 96px;
+    background-color: var(--main-color-Tertiary_bor_two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#tab_icon {
+    color: var(--main-color-primary);
+    font-size: 24px;
+}
+
+/* ++++++++++++++++++++++++++++++++new section+++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++sfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfd */
+.infrom_mul_btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 72px;
+}
+
+.infrom_mul_btn button {
+    display: flex;
+    padding: 16px;
+    gap: 10px;
+    border: 1px solid var(--gray-five);
+    background: #FFF;
+    color: var(--gray-two);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.infrom_mul_btn button:hover {
+    box-shadow: 0px 8px 16px 0px rgba(111, 111, 111, 0.18);
+    transition: all ease-in-out .3s;
+}
+
+.infrom_span {
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    flex-shrink: 0;
+    background: #F9F9F9;
+}
+
+.infrom_span .infrom_icon {
+    width: 32px;
+    height: 32px;
+    color: var(--main-color-primary);
+}
+
+#infrom_id {
+    padding-top: 60px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++aminity start++++++++++++++++++++++++++++++++++++++++++++ */
+.aminity_one {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.aminity_start_one {
+    width: 128px;
+    height: 128px;
+    display: flex;
+    padding: 17px 8px 15px 8px;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color-Tertiary_bor_two);
+}
+
+.aminity_start_one h1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#aminity_ico {
+    font-size: 24px;
+    color: var(--main-color-primary);
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++aminity end++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++location start++++++++++++++++++++++++++++++++++++++++++++ */
+.location_main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 18px;
+}
+
+.location_start h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    width: 100%;
+    height: 100%;
+    background: var(--main-color-Tertiary_bor_two);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#mapstyle {
+    width: 400px !important;
+    height: 450px !important;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++location end++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.infrom_first_img {
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.infrom_first_img img {
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.infrom_second_img {
+    display: flex;
+    gap: 10px;
+}
+
+.infrom_second_img {
+    display: flex;
+    gap: 10px;
+}
+
+.infrom_second_one,
+.infrom_second_one img {
+    width: 600px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.infrom_second_one,
+.infrom_second_two img {
+    width: 500px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    max-width: 33.2% !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    position: absolute;
+    height: 4px !important;
+    width: 60px !important;
+    margin-left: 183px !important;
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff !important;
+}
+
+.inform_card {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 90vw;
+    margin-top: 4.5rem;
+    gap: 76px;
+}
+
+.home_carousel_last {
+    padding: 0px 0px 0px 0px;
+}
+
+.front_one_text h1 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+
+.front_para p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+}
+
+.infrom_two_two_one h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+
+}
+
+/* ======================================inform :end====================================== */
+/* ======================================media :start====================================== */
+@media screen and (max-width: 1350px) {
+    #mapstyle {
+        width: 300px !important;
+        height: 450px !important;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    #simple-tabpanel-1 {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .cardinform_one_two_main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel.pointer-event {
+        width: 100% !important;
+    }
+
+    #mapstyle {
+        width: 100% !important;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 486px;
+    }
+
+    .front_one_start {
+        width: 100%;
+        height: 100%;
+        gap: 8px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .aminity_one {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .location_main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cardinform_one {
+        padding: 0px 50px;
+    }
+
+    #simple-tabpanel-2 {
+        padding: 44px;
+    }
+
+    .inform {
+        padding: 64px 50px 0px 50px;
+    }
+
+    .front {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .infrom_two_two {
+        width: 100%;
+        height: 100%;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        margin-left: 107px !important;
+    }
+
+    .aminity_one {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .infrom_two_one {
+        width: 100%;
+        gap: 14px;
+        height: 100%;
+    }
+
+    .infrom_text_one_two_one {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .infrom_text_one_two {
+        width: 100%;
+        height: 100%;
+    }
+
+    #simple-tabpanel-0 {
+        padding: 44px;
+        height: 100%;
+    }
+
+    .infrom_two_one h1 {
+        font-size: 42px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .location_main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .location_start h5 {
+        font-size: 14px;
+        justify-content: flex-start;
+        line-height: 18px;
+    }
+
+    .location_main {
+        gap: 8px;
+    }
+
+    .inform_card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aminity_one {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .inform {
+        padding: 44px 30px 0px 30px;
+    }
+
+    .cardinform_one {
+        padding: 0px 30px;
+    }
+
+    .carousel {
+        height: 100%;
+    }
+
+    .front_two_card_two,
+    .front_two_card,
+    .front_two_card_three {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .aminity_start_one {
+        width: 100%;
+        height: 100%;
+        padding: 9px 4px 9px 4px;
+    }
+
+    .aminity_start_one h1 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+
+    #mapstyle {
+        height: 250px !important;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+        padding: 4px 8px;
+        height: 0% !important;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        width: 50px !important;
+    }
+
+    .MuiTabs-indicator {
+        display: none;
+    }
+
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        font-size: 10px !important;
+    }
+
+    .location_main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location_start h5 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    #simple-tabpanel-2 {
+        padding: 24px;
+    }
+
+    .front_one_text h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .front_para p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .front_two_card h5,
+    .front_two_card_three h5,
+    .front_two_card_two h5 {
+        padding: 6px 8px;
+        height: 100%;
+    }
+
+    .front_two_card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .infrom_two_one h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .infrom_two_one p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .inform_bhk h4 {
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .inform_bhk_one h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #simple-tabpanel-0 {
+        padding: 24px;
+        height: 100%;
+    }
+
+    .this_is_btn h1 button {
+        padding: 4px 8px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .main_infomr_btn button {
+        padding: 4px 10px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .infrom_two_two_one h4 {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .location_main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ======================================media :end====================================== */

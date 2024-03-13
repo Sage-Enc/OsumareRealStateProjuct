@@ -1,0 +1,171 @@
+import React, { useState } from "react";
+import { IoLogoGoogle } from "react-icons/io";
+import { MdVisibility, MdVisibilityOff } from "react-icons/md";
+import { FaArrowLeft } from "react-icons/fa";
+import { useAuth } from "../../../token";
+import "../login.css";
+import regi_image from "../../assests/Forms-amico1.png";
+import { Link, useNavigate } from "react-router-dom";
+
+const Login = () => {
+  const { storeTokenInLS } = useAuth();
+  const navigate = useNavigate();
+  const [showPassword, setShowPassword] = useState(false);
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+  const [user, setUser] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleInput = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setUser({ ...user, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // const { email, password } = user;
+    try {
+      const response = await fetch("http://localhost:5000/Login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
+      });
+      if (response.ok) {
+        alert("Login Successful");
+        setUser({ email: "", password: "" });
+        const data = await response.json();
+        console.log("Response from server", data);
+        storeTokenInLS(data.token);
+        navigate("/");
+      } else {
+        alert("Invalid credentials");
+        console.log("Invalid credentials");
+      }
+    } catch (error) {
+      console.error("Login error:", error);
+      alert("Failed to log in. Please try again later.");
+    }
+  };
+
+  return (
+    <div className="register">
+      <div className="registers">
+        <div className="left relative">
+          <div className="left_one">
+            <h3>Register yor account and get your place </h3>
+          </div>
+          <div className="left_two">
+            <h3>Register yor account and get your place</h3>
+          </div>
+          <div className="regi_image">
+            <img src={regi_image} alt="" />
+          </div>
+        </div>
+        <div className="right_main" id="right_main">
+          <div className="right flex">
+            <div className="back_btn">
+              <a href="/" className="flex items-center" type="submit">
+                <FaArrowLeft /> Back
+              </a>
+            </div>
+            <div id="regi_one">
+              <div className="regi_one" id="regi_ones">
+                <div className="regi_one_two">
+                  <div className="regi_two">
+                    <div className="regi_two_one ">
+                      <div className="logo_ball"></div>
+                      <h1>MySpace India</h1>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. Risus amet sed dui
+                      id suscipit ornare eget.
+                    </p>
+                  </div>
+                </div>
+                <div className="login_last">
+                  <div className="form" id="form">
+                    <form className="register_form" onSubmit={handleSubmit}>
+                      <div className="form_start">
+                        <div className="login_form">
+                          <input
+                            type="email"
+                            name="email"
+                            id="two"
+                            placeholder="Email / Phone number"
+                            value={user.email}
+                            onChange={handleInput}
+                            required
+                          />
+                          <div className="new_pass_fild relative">
+                            <input
+                              type={showPassword ? "text" : "password"}
+                              name="password"
+                              id="two"
+                              className="pass"
+                              required
+                              value={user.password}
+                              onChange={handleInput}
+                              placeholder="Password"
+                            />
+                            <div
+                              className="toggle-password"
+                              onClick={togglePasswordVisibility}
+                            >
+                              {showPassword ? (
+                                <MdVisibility />
+                              ) : (
+                                <MdVisibilityOff />
+                              )}
+                            </div>
+                          </div>
+                          <div className="reset">
+                            <button>Forget Password?</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="form_btn ">
+                        <div className="form_btn_one">
+                          <div className="form_buttons_register">
+                            <button className="form_btn_one_one" type="submit">
+                              Register Your account
+                            </button>
+                          </div>
+                          <div className="form_buttons_google">
+                            <a href="/verify" className="form_btn_one_two">
+                              <IoLogoGoogle />
+                              Continue with Google
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div className="account">
+                    <div className="account_btn">
+                      <div className="text_acc">
+                        <h3>If You don't have an account so Create</h3>
+                      </div>
+                      <div className="text_btn">
+                        <Link to="/register">
+                          <button>Create Account</button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Login;
