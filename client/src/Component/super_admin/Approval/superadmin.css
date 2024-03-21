@@ -1,0 +1,825 @@
+/* User Card CSS Here */
+
+.main-container {
+  /* Main Div of User Card */
+  margin: 12px 0px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.enquiry-user-data {
+  /* div for the card component */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2%;
+  color: black;
+}
+
+.enquiry-user-img-container {
+  /* div for user img */
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-img {
+  /* img tag of usercard */
+  border-radius: 50%;
+  width: 100%;
+  padding: 5px;
+}
+
+.user-name {
+  /* div for user name, num, email  */
+  width: fit-content;
+  font-size: 20px;
+}
+
+.user-num,
+.user-email {
+  /* div for user name, num, email  */
+  width: fit-content;
+  font-size: 16px;
+}
+
+.enquiry-user-data .enquiry-button-container {
+  /* div to contain card buttons */
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.send-mail-button,
+.make-call-button {
+  /* card buttons */
+  font-size: 16px;
+  border: black solid 2px;
+  color: black;
+  font-weight: 500;
+  width: 40%;
+}
+
+.make-call-button {
+  /* make call button */
+  background-color: #19417c;
+  color: white;
+}
+
+/* User Card CSS Here Break-Point-1*/
+@media only screen and (max-width: 992px) {
+    .main-container {
+        /* Main Div of User Card */
+        margin: 8px 0px;
+      }
+
+  .user-name {
+    /* div for user name, num, email  */
+    font-size: 15px;
+  }
+
+  .user-num,
+  .user-email {
+    /* div for user name, num, email  */
+    font-size: 12px;
+  }
+
+  .send-mail-button,
+  .make-call-button {
+    /* card buttons */
+    font-size: 12px;
+  }
+}
+
+/* User Card CSS Here Break-Point-2*/
+@media only screen and (max-width: 790px) {
+    .main-container {
+        /* Main Div of User Card */
+        margin: 4px 0px;
+      }
+  
+    .user-name {
+    /* div for user name, num, email  */
+    width: fit-content;
+    font-size: 10px;
+  }
+
+  .user-num,
+  .user-email {
+    /* div for user name, num, email  */
+    width: fit-content;
+    font-size: 8px;
+  }
+
+  .send-mail-button,
+  .make-call-button {
+    /* card buttons */
+    font-size: 8px;
+  }
+}
+
+
+/* Property Owner User Card CSS */
+
+.protperty-owner-user-main-container {
+  /* Main Div of User Card */
+  margin: 0 auto;
+  width: 90%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 2%;
+}
+
+.property-owner-user-data {
+  /* div for the card component */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2%;
+  border: #e0e0e0 2px solid;
+}
+
+.property-owner-user-img-container {
+  /* div for user img */
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-owner-user-img {
+  /* img tag of usercard */
+  border-radius: 50%;
+  width: 100%;
+  padding: 5px;
+}
+
+.user-name {
+  /* div for user name, num, email  */
+  width: fit-content;
+  font-size: 20px;
+}
+
+.user-num,
+.user-email {
+  /* div for user name, num, email  */
+  width: fit-content;
+  font-size: 16px;
+}
+
+.property-owner-user-data .protperty-owner-button-container {
+  /* div to contain card buttons */
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Reject-Btn,
+.Approve-Btn {
+  /* card buttons */
+  font-size: 16px;
+  font-weight: 500;
+  width: 40%;
+}
+
+.Reject-Btn {
+  /* Reject button */
+  border: #DB4954 solid 2px;
+  color: #DB4954;
+}
+
+.Approve-Btn {
+  /* Approve button */
+  border: #057755 solid 2px;
+  background-color: #057755;
+  color: white;
+}
+
+/* User Card CSS Here Break-Point-1*/
+@media only screen and (max-width: 992px) {
+    .protperty-owner-user-main-container {
+        /* Main Div of User Card */
+        margin: 0 auto;
+      }
+
+  .user-name {
+    /* div for user name, num, email  */
+    font-size: 15px;
+  }
+
+  .user-num,
+  .user-email {
+    /* div for user name, num, email  */
+    font-size: 12px;
+  }
+
+  .Reject-Btn,
+  .Approve-Btn {
+    /* card buttons */
+    font-size: 12px;
+  }
+}
+
+/* User Card CSS Here Break-Point-2*/
+@media only screen and (max-width: 790px) {
+    .protperty-owner-user-main-container {
+        /* Main Div of User Card */
+        margin: 0 auto;
+      }
+  
+    .user-name {
+    /* div for user name, num, email  */
+    width: fit-content;
+    font-size: 10px;
+  }
+
+  .user-num,
+  .user-email {
+    /* div for user name, num, email  */
+    width: fit-content;
+    font-size: 8px;
+  }
+
+  .Reject-Btn,
+  .Approve-Btn {
+    /* card buttons */
+    font-size: 8px;
+  }
+}
+
+
+/* Enquiry Page CSS Here */
+
+.EnquiryPage {
+  /* Main Div of Enquiry Page*/
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-size: x-large; */
+  /* margin-top: 120px */
+}
+
+.CardTop {
+  /* div for usercard's top element */
+  display: flex;
+  /* justify-content: space-between; */
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+.CardTop-Left {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+}
+
+.CardTop-Right {
+  /* Two div of CardTop: left containing back-button, title. right containing Select form */
+  display: flex;
+  gap: 5%;
+  width: fit-content;
+  align-items: center;
+}
+.enquiryTitle h2 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CardTop-Right h5 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.SelectForm {
+  display: flex;
+  border: 1px solid var(--gray-four);
+  cursor: pointer;
+  background-color: white;
+}
+
+.SelectForm form select {
+  padding: 5%;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.SelectForm form select option {
+  border-radius: 0;
+  font-size: 16px;
+  background-color: white;
+}
+
+.SelectForm form select option:hover {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+/* Enquiry Page Break-Point 1 */
+@media only screen and (max-width: 1200px) {
+  .enquiryTitle h2 {
+    font-size: 20px;
+  }
+
+  .CardTop-Right h5 {
+    font-size: 20px;
+  }
+}
+
+/* Enquiry Page Break-Point 2 */
+@media only screen and (max-width: 992px) {
+  .enquiryTitle h2 {
+    font-size: 16px;
+  }
+
+  .CardTop-Right h5 {
+    font-size: 16px;
+  }
+
+  .SelectForm form select {
+    padding: 0;
+  }
+
+  .SelectForm form select {
+    padding: 2%;
+    font-size: 16px;
+  }
+
+  .SelectForm form select option {
+    font-size: 16px;
+  }
+}
+
+/* Enquiry Page Break-Point 3 */
+@media only screen and (max-width: 768px) {
+  .enquiryTitle h2 {
+    font-size: 12px;
+  }
+
+  .CardTop-Right h5 {
+    font-size: 12px;
+  }
+
+  .SelectForm form select {
+    padding: 2%;
+    font-size: 12px;
+  }
+
+  .SelectForm form select option {
+    font-size: 12px;
+  }
+}
+
+/* Approval Page CSS */
+
+.ApprovalPage {
+  /* Main Div for Approval Page */
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.topControl {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.backBtnName {
+  margin-left: 10px;
+}
+
+.propertyOwnerDetails {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Approval Form CSS Here */
+
+.postForm {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.postForm form {
+  width: 100%;
+}
+
+.postFormTop,
+.postFormBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postTitDes,
+.postProofDoc {
+  width: 49%;
+  background-color: white;
+  border: #e0e0e0 2px solid;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.postTitDes label, .postTitDes p {
+  font-size: 16px;
+}
+
+.postTitDes input,
+.postTitDes textarea,
+.postProofDoc input {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+.postTitDes textarea {
+  height: 40%;
+}
+
+.postTitDes label,
+.postTitDes input,
+.postTitDes textarea,
+.postProofDoc label,
+.postProofDoc input {
+  margin-top: 15px;
+}
+
+.postTitDes p {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.postProofDoc .ProofDocLabel {
+  margin-bottom: 3%;
+  font: 16px;
+}
+
+.postProofDoc .btnSection {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.btnSection button {
+  border: 2px solid;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btnSection .viewDocument {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.postFormBottom {
+  margin-top: 2%;
+}
+
+.bhk,
+.amenities {
+  width: 49%;
+  background-color: white;
+  border: #e0e0e0 2px solid;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.bhkTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.bhk label,
+.bhk input {
+  margin-bottom: 3%;
+}
+
+.bhk label{
+  font-size: 16px;
+}
+
+.bhk input {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bhk .localityInput {
+  width: 100%;
+  margin-left: 0;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+.viewImages,
+.viewAll {
+  border: solid 2px;
+  border-radius: 25px;
+  padding: 1% 5% 1% 5%;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.amenitiesItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1%;
+  margin-top: 2%;
+  width: 100%;
+  height: 40%;
+}
+
+.amenitiesItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 500;
+  font-size: 0.9em;
+  background-color: #87dd8b;
+  margin: 1% 1% 1% 0;
+  padding: 0.5%;
+  padding-right: 1%;
+  font-size: 14px;
+}
+
+.amenitiesItem input {
+  margin: 0;
+}
+
+/* Approval Images Responsiveness Break-Point 1 */
+@media only screen and (max-width: 992px) {     
+  .postTitDes label, .postTitDes p, .ProofDocLabel {
+    font-size: 12px;
+  }
+  
+  .postTitDes input,
+  .postTitDes textarea,
+  .postProofDoc input {
+    font-size: 10px;
+  }
+  
+  .btnSection button {
+    font-size: 12px;
+  }
+
+  .btnSection .viewDocument {
+    font-size: 12px;
+  }
+  
+  .bhk,
+  .amenities {
+    font-size: 12px;
+  }
+  
+  .bhkTop {
+    font-size: 12px;
+  }
+
+  .bhk label{
+    font-size: 12px;
+  }
+  
+  .bhk input {
+    font-size: 10px;
+  }
+  
+  .bhk .localityInput {
+    font-size: 10px;
+  }
+  
+  .viewImages,
+  .viewAll {
+    font-size: 12px;
+  }
+  
+  .amenitiesItem {
+    font-size: 10px;
+  }
+}
+
+/* Approval Images Responsiveness Break-Point 2 */
+@media only screen and (max-width: 768px) {     
+  .postTitDes label, .postTitDes p {
+    font-size: 10px;
+  }
+  
+  .postTitDes input,
+  .postTitDes textarea,
+  .postProofDoc input {
+    font-size: 8px;
+  }
+  
+  .postProofDoc .ProofDocLabel {
+    font: 10px;
+  }
+
+  .btnSection button {
+    font-size: 10px;
+  }
+  
+  .btnSection .viewDocument {
+    font-size: 10px;
+  }
+  
+  .bhk,
+  .amenities {
+    font-size: 10px;
+  }
+  
+  .bhkTop {
+    font-size: 10px;
+  }
+
+  .bhk label{
+    font-size: 10px;
+  }
+  
+  .bhk input {
+    font-size: 8px;
+  }
+  
+  .bhk .localityInput {
+    font-size: 8px;
+  }
+  
+  .viewImages,
+  .viewAll {
+    font-size: 10px;
+  }
+  
+  .amenitiesItem {
+    font-size: 8px;
+  }
+}
+
+/* Approval > Images CSS */
+.imageContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  background-color: white;
+  padding: 1%;
+}
+
+.itemImage {
+  width: 30%;
+  margin: 5px 0;
+}
+
+/* doc Card CSS Here */
+
+.doc-main-container {
+  /* Main Div of doc Card */
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 2px solid #e0e0e0;
+}
+
+.doc-data {
+  /* div for the card component */
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.doc-img-container {
+  /* div for doc img */
+  width: 8%;
+}
+
+.doc-img {
+  /* img tag of doc card */
+  border-radius: 50%;
+  width: 100%;
+}
+
+.doc-name,
+.doc-upload-date,
+.user-status {
+  /* div for doc name, num, email  */
+  width: 16%;
+  font-size: large;
+}
+
+.doc-button-container {
+  /* div to contain card buttons */
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.doc-delete,
+.doc-download {
+  /* card buttons */
+  font-size: large;
+  border: solid 2px;
+  font-weight: 500;
+  width: 40%;
+}
+
+.doc-download {
+  /* download button */
+  background-color: #19417c;
+  color: white;
+  border: 2px solid #19417c;
+}
+
+/* Approval-Aminity Item CSS */
+
+.aminityItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1%;
+}
+
+.aminityItem {
+  background-color: #f8faff;
+  width: 12%;
+  color: #19417c;
+  border-radius: 5px;
+  margin: 0.5% 0 0.5% 0;
+}
+
+.aminityIcon {
+  font-size: xx-large;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px 10px 0px;
+}
+
+.aminityTitle {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.viewallboard{
+  width: 90%;
+  margin-top: 20px;
+}
+
+.viewallitem{
+  width: 33%;
+  background-color: white;
+}
+
+.viewallitem:hover, .viewallitem:active{
+  background-color: #CDE3FF;
+}

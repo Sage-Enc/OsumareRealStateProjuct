@@ -1,0 +1,15 @@
+.smalles_pagi_card_start1 {
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    border: 1px solid var(--gray-five);
+    background: #fff;
+    /* margin-top: 64px; */
+    gap: 16px;
+}
+.smamm_pagi_one1{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    gap: 32px;
+}

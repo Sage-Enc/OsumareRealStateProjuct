@@ -1,0 +1,129 @@
+.refermain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+    padding: 32px;
+}
+.refername{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.refertext h4{
+    font-family:'Noto Serif TC',serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+
+.smamm_pagi_refer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid var(--gray-five);
+    gap: 16px;
+    padding: 32px;
+}
+.smalles_pagi_card_refer {
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    gap: 16px;
+}
+.referbydetail{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #F8FAFF;
+    gap:24px;
+}
+.user-data-refer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 16px 32px;
+}
+.refertext h5{
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Noto Serif TC',serif;
+}
+.user-img-refer{
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+    align-items: center;
+}
+.user-img-refer img{
+    display: flex;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+.user-name-refer {
+    color: var(--black-four);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.refer-num{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.user-email-refer {
+    width: 100%;
+    color: var(--black-four);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.button-container-refer {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.Email-btn button{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid black;
+}
+.call-btn button{
+    display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        background: black;
+        color: white;
+}
+#call-btn{
+    color: white;
+}

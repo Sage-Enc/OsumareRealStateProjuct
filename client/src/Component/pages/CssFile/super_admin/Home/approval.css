@@ -1,0 +1,79 @@
+
+.select_section1{
+    display: flex;
+    align-items: center;
+}
+.select_section1 h1{
+    color: var(--main-color-second);
+    display: flex;
+    font-family:'Noto Serif TC', serif;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    font-size: 20px;
+}
+.dropdown_tabs1{
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.select_sec2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* justify-content: flex-end; */
+    /* align-content: flex-end; */
+}
+.approved_text{
+    display: flex;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #FFABB280;;
+}
+.approved_text h6{
+    padding: 8px 16px;
+    color: #9B0F1A;;
+    font-family:  'Open Sans', sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.first_button1{
+    border: 1px solid black;
+}
+.first_button1 button{
+    padding: 2px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family:  'Open Sans', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.second_button1{
+    background-color: var(--main-color-primary);
+}
+.second_button1 button{
+    display: flex;
+        align-items: center;
+    color: white;
+        font-family:  'Open Sans', sans-serif; 
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 2px 12px;
+        gap: 8px;
+        border: #19417C;
+}
+#approve-btn{
+    color: white;
+}

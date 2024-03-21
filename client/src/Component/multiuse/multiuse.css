@@ -603,12 +603,11 @@ img {
 .smalles_pagi_inform,
 .smalles_card_pagi_btns {
     width: 100%;
-
 }
 
-.smalles_card_pagi_btns {
-    gap: 15px;
-    width: 65%;
+.smalles_card_pagi_btns{
+    justify-content: end;
+    gap: 5%;
 }
 
 .smalles_pagi_img img {
@@ -625,6 +624,7 @@ img {
     padding: 10px 24px 10px 16px;
     height: 40px;
     display: flex;
+    gap: 8px;
     align-items: center;
     justify-content: center;
     border: 1px solid var(--main-color-second);

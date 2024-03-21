@@ -1,0 +1,342 @@
+/* ManageRefer CSS Here */
+
+.ReferManagePage{          /* Main Div of Enquiry Page*/
+    background-color: gainsboro;
+    width: 90%;
+}
+
+.ReferCardTop{         /* div for usercard's top element */
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReferCardTop-Left { /* div of CardTop: left containing back-button, title. */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 20%;
+    align-items: center;
+}
+
+.ReferTitle{ /* div for the title beside back button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.ReferTitle > h2{ /* page title written here */
+    width: fit-content;
+}
+
+.ReferPartnerTopSection{ /* Refer Partner Top section containing user card and bank details */
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.ReferPartnerUser{ /* Refer Partner user card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: white;
+    border: 2px solid #E0E0E0;
+}
+
+.UserImage{ /* Refer Partner user card's image div here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.UserImage img{ /* Refer Partner user card's image here */
+    border-radius: 50%;
+}
+
+.UserName{ /* Refer Partner user card's name div here */
+    padding: 2% 0 2% 0;
+    font-size: larger;
+}
+
+.ButtonOptions{ /* Refer Partner user card's button section div here */
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+
+.ButtonOptions .MakeACall, .ButtonOptions .Email{ /* Refer Partner user card's button here */
+    width: 48%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonOptions .MakeACall{ /* Refer Partner user card's Make Call button here */
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.ButtonOptions .Email{ /* Refer Partner user card's email button here */
+    border: 2px solid black;
+}
+
+.UserBankDetailForm{ /* Refer Partner Bank Detail card here */
+    width: 55%;
+    background-color: #E2EAFF;
+    padding: 3% 5% 3% 5%;
+}
+
+.UserBankDetailForm h1{ /* Refer Partner Bank Detail card title */
+    font-size: x-large;
+    font-weight:600;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1%;
+    padding-bottom: 1%;
+}
+
+.UserBankDetailForm p{  /* Refer Partner Bank Detail card account details */
+    background-color: white;
+    padding: 5px;
+}
+
+/* Refer Partner Option Panel CSS Starts Here */
+
+.ReferManageOptions{  /* Refer Partner Options Here */
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    gap: 20px;
+    margin: 2% 0 2% 0;
+    width: 80%;
+}
+
+.ReferManageOptions > .OptionContainer{  /* Refer Partner Option's container here */
+    border-bottom: #D6DDEB 2px solid;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.ReferManageOptions > .OptionContainer > div{ /* Refer Partner Option's item here */
+    color: #BDBDBD;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+}
+
+.ReferManageOptions > div > Link :active{ /* Refer Partner Option's item when active here */
+    border-bottom: 4px solid #19417C;
+    font-weight: bold;
+    color: black;
+}
+
+/* Refer Partner Pending Payment Table CSS Starts Here */
+
+.PendingPaymentMain{ /* Refer Partner Pending Payment Main Container Here */
+    padding: 1% 0 1% 0;
+    width: 80%;
+}
+
+.PendingPaymentTable{ /* Pending Payment Table Here */
+    width: 100%;
+}
+
+.PendingPaymentTableHead{ /* Table Header Section */
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.PendingPaymentTableHead > td{ /* Table Header Items Name */
+    width: 20%;
+}
+
+.PendingPaymentCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.TotalAmountContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.TotalAmountContainer td{
+    width: 20%;
+}
+
+.TotalAmountContainer .TotalAmountValue{
+    color:#057755;
+}
+
+.PayButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 2%;
+}
+
+.PayButtonContainer button{
+    background-color: #19417C;
+    color: white;
+    width: 20%;
+    padding: 1%;
+}
+
+/* Refer Partner Pending Payment Card CSS Starts Here */
+
+.PendingPaymentCard{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding: 0.5%;
+    margin: 2px 0 2px 0;
+}
+
+.PendingPaymentCard td{
+    width: 20%;
+}
+
+.PendingPaymentCard .PropertyName{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2%;
+}
+
+.PendingPaymentCard .PropertyName img{
+    width: 20%;
+}
+
+.PendingPaymentCard .YourReward, .PendingPaymentCard .Amount{
+    color: #057755
+}
+
+.PendingPaymentCard .GST{
+    color: #9B0F1A
+}
+
+/* Refer Partner Reward History Table CSS Starts Here */
+
+.RewardMain{ /* Refer Partner Reward History Main Container Here */
+    padding: 1% 0 1% 0;
+    width: 80%;
+}
+
+.RewardTable{ /* Reward History Table Here */
+    width: 100%;
+}
+
+.RewardTableHead{ /* Table Header Section */
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.RewardTableHead > td{ /* Table Header Items Name */
+    width: 15%;
+}
+
+.RewardHistoryCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+/* Refer Partner Reward History Card CSS Starts Here */
+
+.RewardHistoryCard{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding: 0.5%;
+    margin: 2px 0 2px 0;
+}
+
+.RewardHistoryCard td{
+    width: 15%;
+}
+
+.RewardHistoryCard .PropertyName{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2%;
+}
+
+.RewardHistoryCard .PropertyName img{
+    width: 20%;
+}
+
+.RewardHistoryCard .YourReward, .RewardHistoryCard .Amount{
+    color: #057755
+}
+
+.RewardHistoryCard .GST{
+    color: #9B0F1A
+}
+
+/* Claim Reward Prompt CSS Starts Here */
+
+.ClaimRewardPrompt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #E2EAFF;
+    margin: 0 auto;
+}
+
+.ClaimRewardPrompt h1{
+    font-size: large;
+    width: 20%;
+    padding: 2%;
+}
+
+.ClaimRewardPrompt .PromptOptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 2%;
+}
+
+.ClaimRewardPrompt .PromptOptions button{
+    width: 48%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+
+.ClaimRewardPrompt .PromptOptions .CheckBankDetails{
+    background-color: #F4F9FF;
+}
+
+.ClaimRewardPrompt .PromptOptions .GetYourReward{
+    background-color: #19417C;
+    color: white;
+}

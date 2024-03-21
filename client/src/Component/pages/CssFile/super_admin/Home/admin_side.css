@@ -1,0 +1,218 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: left;
+    padding: 16px 24px 0px 24px;
+    gap: 32px;
+}
+.admin_profile{
+    display: flex;
+    padding: 8px;
+    flex-direction: row;
+    gap: 8px;
+}
+.admin_img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.admin_profile p{
+    font-family:  'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.Dash_section{
+    display: flex;
+    flex-direction: column;
+}
+.Dash_section H5{
+    color: white;
+    font-family:  'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#home-btn{
+    color: white;
+}
+.home-btn:hover{
+    background-color:var(--main-color-primary);
+}
+.home-btn button{
+    align-items: center;
+        padding: 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+
+#approve-btn{
+    color: white;
+}
+.approve-btn:hover{
+    background-color:var(--main-color-primary);
+}
+.approve-btn button{ 
+    align-items: center;
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.General_section{
+    gap: 4px;
+
+}
+.General_section h5{
+    color: white;
+    font-family:  'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#edit-btn{
+    color: white;
+}
+.edit-btn:hover{
+    background-color:var(--main-color-primary);
+}
+.edit-btn button{
+    align-items: center;
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+
+#manage-btn{
+    color: white;
+}
+.manage-btn:hover{
+    background-color:var(--main-color-primary);
+}
+.manage-btn button{
+    align-items: center;
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+
+#refer-btn{
+    color: white;
+}
+.refer-btn:hover{
+    background-color:var(--main-color-primary);
+}
+.refer-btn button{
+    align-items: center;
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.setting_section h5{
+    color: white;
+    font-family:  'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#logout-btn{
+    color: white;
+}
+.logout-btn button{
+    align-items: center;
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.bottom-text{
+    display:flex;
+    padding-bottom: 8px;
+}
+.bottom-text1 p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100; 
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++asidecsss++++++++++++++++++++++++++++++++ */

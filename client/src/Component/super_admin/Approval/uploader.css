@@ -1,0 +1,49 @@
+.UploadBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed gray;
+    padding: 10%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.uploaded-row{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #e9f0ff;
+    font-size: 14px;
+}
+
+.upload-content{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .UploadBtn{
+        font-size: 10px;
+    }
+    
+    .uploaded-row{
+        font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .UploadBtn{
+        font-size: 10px;
+    }
+    
+    .uploaded-row{
+        font-size: 10px;
+    }
+  }

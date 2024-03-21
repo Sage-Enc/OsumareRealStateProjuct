@@ -1,0 +1,25 @@
+
+.manageuser{
+    display: flex;
+    width: 100%;
+    height: 100%;
+padding: 16px 32px;
+    gap: 16px;
+    flex-direction: column;
+}
+.userpro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px 16px;
+    
+}
+.userpro h4{
+    font-family: 'Noto Serif TC',serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left; 
+}

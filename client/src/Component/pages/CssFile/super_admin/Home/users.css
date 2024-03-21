@@ -1,0 +1,102 @@
+
+.select_section1 {
+    display: flex;
+    align-items: center;
+}
+.select_section1 h1 {
+    color: var(--main-color-second);
+    display: flex;
+    font-family:'Noto Serif TC', serif;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    font-size: 20px;
+}
+.dropdown_tabs1 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home-user-main-container {
+    /* Main Div of User Card */
+    margin: 0 auto;
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 2%;
+  }
+  
+  .home-user-data {
+    /* div for the card component */
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 2%;
+    border: #e0e0e0 2px solid;
+  }
+  
+  .home-user-img-container {
+    /* div for user img */
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-user-img {
+    /* img tag of usercard */
+    border-radius: 50%;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .home-user-name {
+    /* div for user name, num, email  */
+    width: fit-content;
+    font-size: 20px;
+  }
+  
+  .home-user-num,
+  .home-user-active {
+    /* div for user name, num, email  */
+    width: fit-content;
+    font-size: 16px;
+  }
+  
+  .home-user-data .home-user-button-container {
+    /* div to contain card buttons */
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .DeleteAccount-Btn,
+  .EditProfle-Btn {
+    /* card buttons */
+    font-size: 16px;
+    font-weight: 500;
+    width: 45%;
+    padding: 1px;
+  }
+  
+  .DeleteAccount-Btn {
+    /* Reject button */
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .EditProfle-Btn {
+    /* Approve button */
+    border: #19417c solid 2px;
+    background-color: #19417c;
+    color: white;
+  }

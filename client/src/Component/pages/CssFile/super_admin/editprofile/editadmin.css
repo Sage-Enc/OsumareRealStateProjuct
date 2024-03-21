@@ -1,0 +1,222 @@
+.editmain{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 32px;
+   
+}
+.editprofile{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px 24px;
+}
+.edittext h4{
+    font-family: 'Noto Serif TC',serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.admin-pro{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    height: 100%;
+    width: 100%;
+}
+.admin-pro1{
+    width: 40%;
+    display: flex;
+    background: white;
+    padding: 20px 44px;
+}
+.pro_img-info-text h4{
+    font-family: 'Noto Serif TC',serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center; 
+}
+
+.user-text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px 24px;
+}
+.user-text h4{
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 20px;
+}
+.toggle-passwordAdmin {
+    color:var(--gray-five);
+    font-size: 20px;
+    padding: 8px;
+}
+
+/* ------------------AdminPass---------------- */
+
+.admin-pro2 {
+    display: flex;
+    width: 100%;
+    background: #B2CBF0;
+    justify-content: center;
+}
+
+.admin-pass {
+    width: 50%;
+    display: flex;
+    padding: 38px 0px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.pass-sec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+
+.sec1 {
+    width: 100%;
+    display: flex;
+    background: white;
+}
+
+.sec1 input {
+    border: none;
+}
+
+.sec2 {
+    width: 100%;
+    display: flex;
+    background: white;
+}
+
+.sec2 input {
+    border: none;
+}
+
+.admin-edit-btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap:16px;
+}
+
+.admin-edit-btn button {
+    justify-content: flex-end;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+
+
+
+/* --------------ChangePass ------------*/
+.sec3 {
+    width: 100%;
+    display: flex;
+    background: white;
+}
+
+.sec3 input {
+    border: none;
+}
+
+
+
+/* ----------------Content Writer----------- */
+
+.sec4 {
+    width: 100%;
+    display: flex;
+    background: white;
+    justify-content: center;
+
+}
+.sec4 a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    padding: 8px 12px;
+}
+.sec4 a:hover{
+    color: black;
+}
+/* .dropdown_tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+} */
+.admin-edit-btn1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 16px;
+}
+.save-btn button{
+    justify-content: flex-end;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family:'Noto Serif TC',serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 8px 16px;
+}
+.Admin-delete-btn{
+    justify-content: flex-end;
+    background: #B2CBF0;
+    color: black;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+.Admin-delete-btn button {
+    display: flex;
+    align-items: center;
+    gap:8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 8px 16px;
+}

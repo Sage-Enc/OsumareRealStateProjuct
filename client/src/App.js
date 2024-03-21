@@ -17,6 +17,20 @@ import DashHome from "./Component/pages/Dashabord/newDashboard/DashHome";
 import DashAbout from "./Component/pages/Dashabord/newDashboard/DashAbout";
 import DashCon from "./Component/pages/Dashabord/newDashboard/DashCon";
 import DashNavbar from "./Component/pages/Dashabord/newDashboard/DashNavbar";
+import ProfileUser from "./Component/profile/ProfileUser";
+import AdminSide from "./Component/super_admin/Home/AdminSide";
+import AdminSearch from "./Component/super_admin/Home/AdminSearch";
+import AdminMain from "./Component/super_admin/Home/AdminMain";
+import AdminApro from "./Component/super_admin/Home/AdminApro";
+import Approval from "./Component/super_admin/Home/Approval";
+import User from "./Component/super_admin/Home/User";
+import Enquiries from "./Component/super_admin/Home/enquiries";
+import Refermain from "./Component/super_admin/referral/Refermain";
+import ManageUser from "./Component/super_admin/ManageUser/ManageUser";
+import EditAdmin from "./Component/super_admin/edit_profile/EditAdmin";
+import ApprovalMain from "./Component/super_admin/Approval/ApprovalMain";
+import ApprovalCancel from "./Component/super_admin/Approval/ApprovalCancel";
+
 function App() {
   return (
     <>
@@ -102,7 +116,148 @@ function App() {
               </StepContext>
             }
           />
-
+          <Route
+            path="/profile"
+            element={
+              <>
+                {" "}
+                <Navbar />
+                <ProfileUser />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/approval/*"
+            element={
+              <>
+                <div className="adminapp">
+                  <div className="adminapp_first">
+                    <AdminSide />
+                  </div>
+                  <div className="adminapp_sec">
+                    <Routes>
+                      <Route
+                        path="adminmain/*"
+                        element={
+                          <>
+                            <AdminSearch />
+                            <AdminMain />
+                            <Routes>
+                              <Route path="adminapro" element={<AdminApro />} />
+                              <Route path="approval" element={<Approval />} />
+                              <Route path="user" element={<User />} />
+                            </Routes>
+                          </>
+                        }
+                      />
+                      <Route
+                        path="enquiries"
+                        element={
+                          <>
+                            <AdminSearch />
+                            <Enquiries />
+                          </>
+                        }
+                      />
+                      <Route
+                        path="approvelist/*"
+                        element={
+                          <>
+                            <AdminSearch />
+                            <ApprovalMain />
+                            <Routes>
+                              <Route path="requests" element={<Approval />} />
+                              <Route path="approved" element={<AdminApro />} />
+                              <Route
+                                path="cancellist"
+                                element={<ApprovalCancel />}
+                              />
+                            </Routes>
+                          </>
+                        }
+                      />
+                    </Routes>
+                  </div>
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/refersection/*"
+            element={
+              <>
+                <div className="adminapp">
+                  <div className="adminapp_first">
+                    <AdminSide />
+                  </div>
+                  <div className="adminapp_sec">
+                    <Routes>
+                      <Route
+                        path="refermain/*"
+                        element={
+                          <>
+                            <AdminSearch />
+                            <Refermain />
+                          </>
+                        }
+                      />
+                    </Routes>
+                  </div>
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/editprofile/*"
+            element={
+              <>
+                <div className="adminapp">
+                  <div className="adminapp_first">
+                    <AdminSide />
+                  </div>
+                  <div className="adminapp_sec">
+                    <Routes>
+                      <Route
+                        path="admin/*"
+                        element={
+                          <>
+                            <AdminSearch />
+                            <EditAdmin />
+                          </>
+                        }
+                      />
+                    </Routes>
+                  </div>
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/manageuser/*"
+            element={
+              <>
+                <div className="adminapp">
+                  <div className="adminapp_first">
+                    <AdminSide />
+                  </div>
+                  <div className="adminapp_sec">
+                    <Routes>
+                      <Route
+                        path="user/*"
+                        element={
+                          <>
+                            <AdminSearch />
+                            <ManageUser />
+                          </>
+                        }
+                      />
+                    </Routes>
+                  </div>
+                </div>
+              </>
+            }
+          />
           <Route
             path="/sliderdash/*"
             element={
